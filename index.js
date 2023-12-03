@@ -16,6 +16,6 @@ app.use(express.json());
 app.use("/", indexRouter);
 
 //listen to port 3333
-app.listen(3333, (err) => {
-  err ? console.log(err) : console.log("[+] Listening to port 3333");
+app.listen(3333, () => {
+  console.log("Application is running on port 3333.");
 });
