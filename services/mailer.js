@@ -21,8 +21,8 @@ transporter.verify((error, success) => {
 
 const mailer = async (data) => {
   const messageOptions = {
-    from: '"Avishek Shrestha" <avishek.shrestha@gmail.com>', //sender
-    to: "avistha26@gmail.com", //receivers
+    from: '"Nabin Malla" <nabinm784@gmail.com>', //sender
+    to: "kingnabin451@gmail.com", //receivers
     subject: "QR code from the QR Generator.", //subject line
     html: JSON.stringify(data), //html body
   };

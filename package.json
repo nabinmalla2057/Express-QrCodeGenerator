@@ -7,12 +7,15 @@
     "start": "nodemon"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nabin",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.2",
+    "nodemailer": "^6.9.7",
     "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
